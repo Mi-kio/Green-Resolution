@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instagreen</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans+Narrow&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="home-page-body content">
+          
+            <img class="img-responsive logo" src = "Images/logo.PNG" alt="Instagreen logo">
+            <h1 class="title">Instagreen</h1><br>
+            <button class="rbutton"><a href="resolution.html">Take a resolution to save earth</a></button>
+            <p class="about">Instagreen is a web application that encourages users to take a resolution monthly/weakly/daily to contribute in saving earth.<bR>
+              In this web app we have provided a dedicated page to take resolutions, and a page for calculating carbon footprints using a carbon footprint calculator embedded in it.<br>
+              Also the users can view the activity on GreenFeed(static for now)<Br>
+           <br>
+        </p>
+           
+
+           <div class="container">
+            <div class="row">
+                <div class="two col-lg-6">
+           <!--air pollution stats-->
+           <h1>Check the air pollution in your city!</h1>
+           <form action="/" method="post">
+               <label for="cityInput">City Name</label><bR>
+               <input type="text" name="cityName" id="cityInput" placeholder="city"><br>
+               <label for="stateInput">State Name</label><br>
+               <input type="text" name="stateName" id="stateInput" placeholder="state"><bR>
+               <label for="countryInput">Country Name</label><bR>
+               <input type="text" name="countryName" id="countryInput" placeholder="India"><bR>
+               <button id="ab" class="sbutton" type="submit">Go</button>
+               </form>
+                </div>
+
+                <div class="two col-lg-6">
+            <img class="shadow" src="https://i.guim.co.uk/img/media/4b3f0ad61cbd7dfcb5c77c57c6d52a181ba0c81a/0_0_2585_1551/master/2585.png?width=1200&height=1200&quality=85&auto=format&fit=crop&s=4abda832d1626dce9e42eee6fc8c4973" alt="pollution">
+             </div>
+            </div>
+        </div>
+           
+           
+            
+        </div>
+      </div>
+
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="resolution.html"><i class="fas fa-user-alt"></i>Resolution</a>
+          </li>
+        
+          <li>
+            <a href="greenfeed.html"><i class="fas fa-user-alt"></i>Green Feed</a>
+          </li>
+          <li>
+            <a href="calculator.html"><i class="fas fa-user-alt"></i>Carbon Footprint Calculator</a>
+          </li>
+        </ul>
+      </nav>
+
+	<script src="script.js"></script>
+  </body>
+</html>
