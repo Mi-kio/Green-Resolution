@@ -29,7 +29,7 @@ app.get('/script.js',function(req,res){
    app.post("/",function(req,res){
       
      //  console.log("post received");
-     const key = "af99d9b0-0564-4ce3-a2f3-2584f4b7e464";
+     const key = "<Your Key>";
      const city = req.body.cityName;
      const state = req.body.stateName;
      const country = req.body.countryName;
