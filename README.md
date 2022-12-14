@@ -1,4 +1,4 @@
-# INSTAGREEN#
+# GREEN RESOLUTION
 
 
 ### What is this repository for? ###
